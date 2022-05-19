@@ -1,0 +1,20 @@
+body {
+    background-color: #D6F6DD;
+}
+
+h1 {
+    color: #57635a;
+    font-size: 100px;
+}
+img {
+    background-color: red;
+}
+.first_p {
+    color: aliceblue;
+}
+.second_p {
+    color: aqua;
+}
+.large {
+    font-size: 100px;
+}

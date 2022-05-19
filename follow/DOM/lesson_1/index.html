@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+</head>
+
+<body onload="alert('hello');"> 
+    Generic Title
+    <!-- when the body tag is loaded -> inline javascript invoking the alert function with message hello-->
+    <!-- inline javascript is not recommended to use; -->
+    <script>
+        // this is an internal javascript
+        // this script will execute once the body is loaded
+        alert("hello");
+    </script>
+    <script src="index.js">
+        // this is an external javascript
+    </script>
+    <!-- recommended to just place most of the scripts at the top of each parent's ending tag -->
+</body>
+
+</html>
